@@ -1,0 +1,162 @@
+@font-face { 
+    font-family: "Roboto Slab";
+    src: url("./fonts/roboto-slab.regular.ttf");
+} 
+
+@font-face { 
+    font-family: "Roboto Slab Bold";
+    src: url("./fonts/roboto-slab.bold.ttf");
+} 
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 30px 50px 0px;
+}
+
+.leftNav, .rightNav {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.leftNav {
+    font-size: 25px;
+    font-family: "Roboto Slab";
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.leftMain h1 {
+    font-size: 45px;
+    font-family: 'Roboto Slab Bold'
+}
+
+.leftMain h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: 'Roboto Slab';
+    gap: 7px;
+    margin: 0px;
+}
+
+.wrap {
+    color: #9DAF5B;
+}
+
+.rightMain {
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25))
+}
+
+.rightMain img {
+    width: 400px;
+    clip-path: circle();
+}
+
+.hover-anim {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+  
+.hover-anim:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-anim:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+@media (max-width: 1024px) {
+    .leftNav {
+        font-size: 20px;
+    }
+    
+    .leftMain h1 {
+        font-size: 35px;
+    }
+    
+    .leftMain h2 {
+        font-size: 20px;
+    }
+
+    .rightMain img {
+        width: 300px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}  
+
+@media (max-width: 425px) {
+    .main {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .leftMain h1 {
+        font-size: 35px;
+    }
+
+    .rightMain img {
+        margin-top: -30px;
+        width: 250px;
+    }
+
+    nav {
+        margin: 20px 30px 30px;
+    }
+
+    .leftNav, .rightNav {
+        gap: 10px;
+    }
+
+    .github {
+        width: 25px;
+    }
+    
+    .linkedin {
+        width: 22px;
+    }
+
+    .leftNav {
+        font-size: 15px;
+    }
+}  
