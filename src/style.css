@@ -8,6 +8,11 @@
     src: url("./fonts/roboto-slab.bold.ttf");
 } 
 
+body {
+    background-image: url("./images/topography.svg");
+    background-repeat: repeat;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -19,6 +24,32 @@ nav {
     align-items: stretch;
     justify-content: space-between;
     margin: 30px 50px 0px;
+}
+
+.content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMe, .experience, .resume {
+    width: 55%;
+    margin-bottom: 100px;
+}
+
+.resume button {
+    color: #9DAF5B;
+    background-color: transparent;
+    border: 2px solid #9DAF5B;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.resume button:hover {
+    background-color: #9DAF5B;
+    color: white;
 }
 
 .leftNav, .rightNav {
@@ -41,6 +72,7 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 100px;
+    margin-bottom: 30px;
 }
 
 .leftMain h1 {
@@ -103,6 +135,14 @@ footer {
     color: gray;
 }
 
+.logos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 1024px) {
     .leftNav {
         font-size: 20px;
@@ -123,7 +163,41 @@ footer {
     footer {
         font-size: 12px;
     }
+
+    .aboutMe, .experience, .resume {
+        width: 65%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px
+    }
 }  
+
+@media (max-width: 768px) {
+    .aboutMe, .experience, .resume {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+
+    .dc {
+        width: 80px;
+        height: 20%;
+    }
+
+    .wf {
+        width: 90px;
+        height: 20%;
+    }
+
+    .cv {
+        width: 150px;
+        height: 20%;
+    }
+}
 
 @media (max-width: 425px) {
     .main {
@@ -158,5 +232,32 @@ footer {
 
     .leftNav {
         font-size: 15px;
+    }
+
+    .aboutMe, .experience, .resume {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .dc {
+        width: 60px;
+        height: 20%;
+    }
+
+    .wf {
+        width: 70px;
+        height: 20%;
+    }
+
+    .cv {
+        width: 120px;
+        height: 20%;
+    }
+
+    .logos img {
+        margin-bottom: 30px;
     }
 }  
