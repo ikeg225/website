@@ -26,6 +26,18 @@ nav {
     margin: 30px 50px 0px;
 }
 
+h1 {
+    font-family: "Roboto Slab Bold";
+}
+
+h2 {
+    font-family: "Roboto Slab";
+}
+
+.green {
+    color: #9DAF5B;
+}
+
 .content {
     display: inline-flex;
     flex-direction: column;
