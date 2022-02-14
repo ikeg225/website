@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 30px 50px 0px;
+}
+
+.leftNav, .rightNav {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.leftNav {
+    font-size: 25px;
+    font-family: "Roboto Slab";
+}
+
+.activeLink {
+    color: #9DAF5B;
+}
+
+@media (max-width: 1024px) {
+    .leftNav {
+        font-size: 20px;
+    }
+}  
+
+@media (max-width: 425px) {
+    nav {
+        margin: 20px 30px 30px;
+    }
+
+    .leftNav, .rightNav {
+        gap: 10px;
+    }
+
+    .github {
+        width: 25px;
+    }
+    
+    .linkedin {
+        width: 22px;
+    }
+
+    .leftNav {
+        font-size: 15px;
+    }
+}  

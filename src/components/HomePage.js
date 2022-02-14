@@ -1,8 +1,9 @@
+import '../css/homepage.css';
 import Typewriter from 'typewriter-effect';
-import me from '../images/me.jpg';
-import wf from '../images/wfLogo.png';
-import cv from '../images/cvLogo.png';
-import dc from '../images/dcLogo.webp';
+import me from '../images/ethanikegami.jpg';
+import wf from '../images/wellfargo.jpg';
+import cv from '../images/corevestfinance.jpg';
+import dc from '../images/dailycal.jpg';
 
 function HomePage() {
     return (
@@ -10,7 +11,7 @@ function HomePage() {
             <div className="content">
                 <div className="main">
                     <div className="leftMain">
-                        <h1>Hey there, my<br></br>name's Ethan.</h1> 
+                        <h1>Hey there, my<br></br>name's Ethan!</h1> 
                         <h2>I'm a<Typewriter options={{
                             strings: ['web developer', 'basketball junkie', 'software engineer', 
                             'nature enthusiast', 'data scientist', 'eagle scout', 'internet marketer'],
@@ -21,7 +22,7 @@ function HomePage() {
                         <h2>based in Berkeley, CA.</h2>
                     </div>
                     <div className="rightMain">
-                        <img src={me} />
+                        <img src={me} alt="picture of ethan ikegami"/>
                     </div>
                 </div>
                 <div className="aboutMe">
@@ -60,16 +61,18 @@ function HomePage() {
                         Analyst Program as a <span className="green">software engineer</span>.
                     </h2>
                     <div className="logos">
-                        <img className="cv" src={cv} width="200px" />
-                        <img className="dc" src={dc} width="100px" />
-                        <img className="wf" src={wf} width="110px" />
+                        <img className="cv" src={cv} />
+                        <img className="dc" src={dc} />
+                        <img className="wf" src={wf} />
                     </div>
                 </div>
                 <div className="resume">
                     <h1>Resume</h1>
                     <h2>For a more concise version of my experience highlighting my most 
                         relevant skills, please checkout my resume below!</h2>
-                    <a href="https://drive.google.com/file/d/1eh9MHICeqpAvNvy9t7nZx5iVEB0RWOG1/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
+                    <div className="resButton">
+                        <a href="https://drive.google.com/file/d/1eh9MHICeqpAvNvy9t7nZx5iVEB0RWOG1/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
+                    </div>
                 </div>
             </div>
         </>

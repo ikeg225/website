@@ -1,0 +1,67 @@
+@font-face { 
+    font-family: "Roboto Slab";
+    src: url("../fonts/roboto-slab.regular.ttf");
+} 
+
+@font-face { 
+    font-family: "Roboto Slab Bold";
+    src: url("../fonts/roboto-slab.bold.ttf");
+} 
+
+body {
+    background-image: url("../images/topography.svg");
+    background-repeat: repeat;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Roboto Slab Bold";
+}
+
+h2 {
+    font-family: "Roboto Slab";
+}
+
+.hover-anim {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+  
+.hover-anim:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-anim:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 30px;
+    }
+}  

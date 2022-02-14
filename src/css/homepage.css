@@ -1,0 +1,146 @@
+.green {
+    color: #9DAF5B;
+}
+
+.content {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMe, .experience, .resume {
+    width: 55%;
+    margin-bottom: 100px;
+}
+
+.resume button {
+    color: #9DAF5B;
+    background-color: white;
+    border: 2px solid #9DAF5B;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.resume button:hover {
+    background-color: #9DAF5B;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+.leftMain h1 {
+    font-size: 45px;
+    font-family: 'Roboto Slab Bold'
+}
+
+.leftMain h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: 'Roboto Slab';
+    gap: 7px;
+    margin: 0px;
+}
+
+.wrap {
+    color: #9DAF5B;
+}
+
+.rightMain {
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25))
+}
+
+.rightMain img {
+    width: 400px;
+    clip-path: circle();
+}
+
+.logos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    width: 100px;
+}
+
+.resButton {
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .leftMain h1 {
+        font-size: 35px;
+    }
+    
+    .leftMain h2 {
+        font-size: 20px;
+    }
+
+    .rightMain img {
+        width: 300px;
+    }
+
+    .aboutMe, .experience, .resume {
+        width: 65%;
+    }
+}  
+
+@media (max-width: 768px) {
+    .aboutMe, .experience, .resume {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .leftMain h1 {
+        font-size: 35px;
+    }
+
+    .rightMain img {
+        margin-top: -30px;
+        width: 250px;
+    }
+
+    .aboutMe, .experience, .resume {
+        width: 75%;
+    }
+
+    .dc {
+        width: 60px;
+        height: 20%;
+    }
+
+    .wf {
+        width: 70px;
+        height: 20%;
+    }
+
+    .cv {
+        width: 120px;
+        height: 20%;
+    }
+
+    .logos img {
+        margin-bottom: 25px;
+    }
+}  

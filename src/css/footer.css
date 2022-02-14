@@ -1,0 +1,12 @@
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Roboto Slab";
+    color: gray;
+}
+
+@media (max-width: 1024px) {
+    footer {
+        font-size: 11px;
+    }
+} 

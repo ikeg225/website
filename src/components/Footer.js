@@ -1,7 +1,9 @@
+import '../css/footer.css';
+
 function Footer() {
     return (
         <footer>
-            <p>Email: <a href="mailto:ikeg225@berkeley.edu" className="hover-anim">ikeg225@berkeley.edu</a> | Phone Number: <a href="tel:4249036354" className="hover-anim">(424) 903-6354</a></p>
+            <p>Built from scratch using ReactJS. Checkout the <a href="https://github.com/ikeg225/work-website" className="hover-anim" target="_blank" rel="noopener noreferrer">GitHub Repo</a>.</p>
         </footer>
     )
 }
