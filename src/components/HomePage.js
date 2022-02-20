@@ -4,6 +4,7 @@ import me from '../images/ethanikegami.jpg';
 import wf from '../images/wellfargo.jpg';
 import cv from '../images/corevestfinance.jpg';
 import dc from '../images/dailycal.jpg';
+import resume from '../data/Ethan-Ikegami-Resume.pdf';
 
 function HomePage() {
     return (
@@ -71,7 +72,7 @@ function HomePage() {
                     <h2>For a more concise version of my experience highlighting my most 
                         relevant skills, please checkout my resume below!</h2>
                     <div className="resButton">
-                        <a href="https://drive.google.com/file/d/1eh9MHICeqpAvNvy9t7nZx5iVEB0RWOG1/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
+                        <a href={resume} target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
                     </div>
                 </div>
             </div>

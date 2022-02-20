@@ -6,6 +6,7 @@ import { useRef, useState } from 'react';
 function Contact() {
     const form = useRef();
     const [sent, setSent] = useState(false);
+    const [error, setError] = useState(false);
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -14,7 +15,7 @@ function Contact() {
         .then((result) => {
             setSent(true)
         }, (error) => {
-            console.log(error.text);
+            setError(true)
         });
     };
 
@@ -47,6 +48,7 @@ function Contact() {
                         <br></br>
                         { !sent && <div className="centerUnder"><button>send</button></div> }
                         { sent && <div className="centerUnderText"><p><i>This email was sent successfully.</i></p></div> }
+                        { error && <div className="centerUnderText"><p><i>There was an error. Please reach me at ikeg225@berkeley.edu</i></p></div> }
                     </form>
                 </div>
             </div>

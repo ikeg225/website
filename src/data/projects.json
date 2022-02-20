@@ -1,0 +1,100 @@
+{
+    "projects": [
+        {
+            "name": "CoreVest Finance",
+            "category": "data",
+            "image": "/corevest.webp",
+            "description": "CoreVest Finance meets the demand for affordable debt capital by a broad range of residential real estate investors. Interning as a data scientist in the summer of 2021, my partner and I built a profile persona of customers based on previously inaccessible application data using custom python scripts and OCR software. Using Random Forests, we created a model that predicted with 97.82% accuracy if a loan will be closed, withdrawn, or rejected. This information would not be known until months or years into the loan process.",
+            "technology": "Python, Pandas, NumPy, OCR, Regex, Scikit-Learn",
+            "moreinfo": "<div>Contact for code</div>"
+        },
+        {
+            "name": "The Daily Californian",
+            "category": "web",
+            "image": "/dailycal.webp",
+            "description": "The Daily Californian is the news outlet of the UC Berkeley campus and the Berkeley, CA community. We are transitioning their WordPress website to a React based one. Using GatsbyJS, which is a static site-generator, our final site will be able to load thousands of static pages and significantly improve the response time of the website. We are using GraphQL to query data from WordPress which allows writers at the organization to still use the familiar WP interface.",
+            "technology": "ReactJS, GatsbyJS, HTML, CSS, JavaScript, JSX, GraphQL",
+            "moreinfo": "<a href='https://www.dailycal.org/' target='_blank' rel='noopener noreferrer'>Website</a>"
+        },
+        {
+            "name": "Uber Project",
+            "category": "data",
+            "image": "/uber.webp",
+            "description": "The problem Uber faced was that the company’s pre-existing traffic estimates were wildly incorrect given the COVID-19 lockdown. This is interesting because solving the problem will save the company millions of dollars and allow us to reduce traffic congestion, which will help both the environment and save people time. We worked with multiple datasets from different sources in order to cluster data spatially using Google Plus Codes and census tract geojson to perform analysis on the impact COVID lockdown had on traffic in San Francisco. We built a time series model to account for the lockdown’s impact and was able to accurately predict travel time to different locations with 99.13% R2 score and RMSE of 2.11 seconds.",
+            "technology": "Python, Pandas, GeoJSON, Scikit-Learn, Seaborn",
+            "moreinfo": "<a href='/projectImages/uber-movement.pdf' target='_blank' rel='noopener noreferrer'>Project Report</a>"
+        },
+        {
+            "name": "Gitlet",
+            "category": "software",
+            "image": "/git.webp",
+            "description": "Implemented my own version-control system that mimics the basic features of Git including init, add, commit, rm, log, global-log, find, status, checkout, branch, rm-branch, reset, and merge. The internal structure of the software included blobs (saved content of the files), trees (directory structures mapping names to references to blobs and other trees), and commits (combinations of log messages, other metadata (commit date, author, etc.), a reference to a tree, and references to parent commits). Used cryptographic hash functions like SHA-1, serialization, directory manipulation, graph traversals, and integration tests. The application was built with Java.",
+            "technology": "Java, JUnit, Directory Manipulation, Serialization, SHA-1, Graphs",
+            "moreinfo": "<div>Contact for code</div>"
+        },
+        {
+            "name": "Sports Quiz",
+            "category": "web",
+            "image": "/quiz.webp",
+            "description": "Started an interactive sports website that was built from scratch using WordPress and edited using CSS, JavaScript, and PHP. The website has reached over 315K user sessions, 5 million pageviews, and served more than 16.5 million ad impressions during the site’s lifetime. The main sources of traffic were SEO, affiliates, and my own Instagram accounts. I negotiated and built the affiliate network to consist of over 100 affiliates that have a combined following on social media of around 4MM followers. I also worked on optimizing ad revenue by setting up header bidding with multiple different networks/exchanges selling ad space to the highest bidder. Also increased revenue through decreasing website load speed by 220% and yielded a 23.7% increase in pages per session which led to more ad impressions.",
+            "technology": "WordPress, CSS, JavaScript, PHP, Instagram marketing, SEO",
+            "moreinfo": "<a href='https://sportsquiz.org/' target='_blank' rel='noopener noreferrer'>Website</a>"
+        },
+        {
+            "name": "Jumping Cube",
+            "category": "software",
+            "image": "/cube.webp",
+            "description": "Built a two-person, pure strategy game called Jumping Cube. This game involves no element of chance and allows a user to play against a computer or against another person, or to allow the computer to play itself. Implemented the game functionality in Java. The AI was built using the minimax algorithm to decide what is the next best move and alpha-beta pruning to improve the efficiency of the decision making process. Connected the backend to a graphical interface (GUI) that was implemented using Graphics2D. Used JUnit for both unit and integration testing.",
+            "technology": "Java, Graphics2D, Minimax Algorithm, JUnit",
+            "moreinfo": "<div>Contact for code</div>"
+        },
+        {
+            "name": "FireWatch Chatbot",
+            "category": "data",
+            "image": "/firewatch.webp",
+            "description": "Developed a Facebook chatbot for CalSAFE that provides the public information about fire preparedness, ecology, recovery, and emergency protocols. The chatbot uses an NLP classification model that identifies questions about wildfires and provides the user with helpful responses and related questions. The data was collected from question and answer outlets like Reddit, Twitter, and Yahoo Answers then classified manually. The bot is hosted on Heroku using Flask.",
+            "technology": "Python, Spacy, Scikit-Learn, NLTK, Heroku, Flask, Facebook API",
+            "moreinfo": "<a href='https://github.com/jstehn/FirewatchChatbot' target='_blank' rel='noopener noreferrer'>GitHub Repo</a>"
+        },
+        {
+            "name": "Enigma Machine",
+            "category": "software",
+            "image": "/enigma.webp",
+            "description": "Enigma machines were devices that Germany used during World War II to encrypt its military communications. This project involves building a simulated version of this machine. My software takes descriptions of possible initial configurations through cyclic permutations, rotors, ringstellung, and plugboards to encode or decode messages (the Enigma algorithms are reciprocal, meaning that encryption is its own inverse operation). For example, the phrase “HELLO THERE” would be encoded into “XJFXZ KPVZP” with a specific set of settings. Notice how the same letters (in this case “E” and “L”) can have different letters in the encoding. This makes the cipher very difficult to break.",
+            "technology": "Java, JUnit",
+            "moreinfo": "<div>Contact for code</div>"
+        },
+        {
+            "name": "HoopOriginals & DunkVintage",
+            "category": "data",
+            "image": "/hoop.webp",
+            "description": "Started two Instagram accounts in the basketball niche and grew both accounts to over 110k+ and 35k+ followers. The accounts reach a combined 24 million+ sports fans and 650k+ content interactions through posts every month. Using the accounts, I was able to create multiple streams of income and optimize traffic funneling. After strategizing and developing my own methods to increase followers, likes, and engagement, I was able to develop an automated content curation process to grow the accounts exponentially with minimal effort. Used Quadratic Discriminant Analysis to build a model that predicts how well a post will perform with 70.59% precision. This allowed me to determine what content to post and optimize growth. I also explored and analyzed accounts posting schedule and post type yielding a 56.63% increase in engagement.",
+            "technology": "Python, NumPy, Scikit-Learn, Beautiful Soup",
+            "moreinfo": "<a href='https://www.instagram.com/hooporiginals/' target='_blank' rel='noopener noreferrer'>HoopOriginals</a> and <a href='https://www.instagram.com/dunkvintage/' target='_blank' rel='noopener noreferrer'>DunkVintage</a>"
+        },
+        {
+            "name": "NBA Hall of Fame Predictions",
+            "category": "data",
+            "image": "/nba.webp",
+            "description": "Predicted NBA Hall of Fame status with 95.8% accuracy. All game data was collected from Basketball References and honors/awards acquired from Wikipedia using Urlib/BeautifulSoup/Regex. The data collected was cleaned using Pandas/NumPy. Every season of each 4,985 players that have any NBA or ABA stats were included in the dataset. For each of the seasons, the Per Game regular season/playoffs and Advanced regular season/playoffs were used. Used PCA for dimensionality reduction and searching for patterns in high-dimensional data.",
+            "technology": "Python, Urlib, Beautiful Soup, Regex, Pandas, NumPy, PCA",
+            "moreinfo": "<a href='https://github.com/ikeg225/predicting-nba-hall-of-fame' target='_blank' rel='noopener noreferrer'>GitHub Repo</a>"
+        },
+        {
+            "name": "Scheme Interpreter",
+            "category": "software",
+            "image": "/scheme.webp",
+            "description": "Implemented a Scheme interpreter built with Python. Using the REPL (read, evaluate, print, loop) method, the scheme code is first parsed through lexical and syntactic analysis using mutually recursive functions. Then the next step is the evaluation of the tokenized input and calling specific functions depending on the code. The obtained value is then printed and the loop continues allowing for the user to enter in another line of Scheme code.",
+            "technology": "Python",
+            "moreinfo": "<div>Contact for code</div>"
+        },
+        {
+            "name": "Space Scramble",
+            "category": "web",
+            "image": "/scramble.webp",
+            "description": "Worked with a team of web developers to create an educational online word scramble website game that helps students improve their vocabulary, learn problem-solving skills, and encourage creativity. The theme of the website is space, so all words scrambled fit into this theme. The site was designed using Figma and built from scratch using HTML, CSS, and vanilla JavaScript. Other features include user authentication and leaderboard database using Firebase. The project was developed and deployed within three weeks.",
+            "technology": "HTML, CSS, JavaScript, Firebase, Web Storage API, Figma",
+            "moreinfo": "<a href='https://github.com/SquidSquad484/TOPGameJam1' target='_blank' rel='noopener noreferrer'>Github Repo</a> and <a href='https://squidsquad484.github.io/TOPGameJam1/' target='_blank' rel='noopener noreferrer'>Website</a>"
+        }
+    ]
+}
