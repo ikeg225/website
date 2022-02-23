@@ -15,4 +15,6 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-App is then deployed to GitHub pages. 
+Uses react-snap during postbuild for pre-rendering of pages improving SEO and crawlability of the site.
+
+App is then deployed to Upcloud server using Runcloud.
