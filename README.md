@@ -18,3 +18,5 @@ The build is minified and the filenames include the hashes.\
 Uses react-snap during postbuild for pre-rendering of pages improving SEO and crawlability of the site.
 
 App is then deployed to Upcloud server using Runcloud.
+
+You can checkout the website here: [ethanikegami.com](https://ethanikegami.com)

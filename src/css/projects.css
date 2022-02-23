@@ -96,7 +96,7 @@
     }
     
     .text h2 {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .logo img {
@@ -113,11 +113,11 @@
 
     .singleproject {
         flex-direction: column;
-        margin: 50px 40px;
+        margin: 50px 30px;
     }
 
     .filter button {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .logo img {
@@ -127,7 +127,7 @@
 
 @media (max-width: 320px) {
     .singleproject {
-        margin: 50px 30px;
+        margin: 50px 20px;
     }
 
     .logo img {

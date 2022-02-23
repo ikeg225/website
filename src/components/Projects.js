@@ -42,13 +42,14 @@ function Projects() {
         typeProject !== "all" ? setFilterProject(filterProject(typeProject)) : setFilterProject(eachProject);
     }
 
-    //function shuffleArray(array) {
-    //    for (let i = array.length - 1; i > 0; i--) {
-    //        const j = Math.floor(Math.random() * (i + 1));
-    //        [array[i], array[j]] = [array[j], array[i]];
-    //    }
-    //}
-    //shuffleArray(projects);    
+    // A function that randomizes the order of projects.
+    //  function shuffleArray(array) {
+    //      for (let i = array.length - 1; i > 0; i--) {
+    //          const j = Math.floor(Math.random() * (i + 1));
+    //          [array[i], array[j]] = [array[j], array[i]];
+    //      }
+    //  }
+    //  shuffleArray(projects);    
 
     return (
         <div className="latest">
