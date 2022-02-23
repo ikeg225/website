@@ -21,10 +21,12 @@ a {
 
 h1 {
     font-family: "Roboto Slab Bold";
+    font-size: 35px;
 }
 
 h2 {
     font-family: "Roboto Slab";
+    font-size: 20px;
 }
 
 .hover-anim {
