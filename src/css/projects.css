@@ -15,7 +15,9 @@
 }
 
 .singleproject {
-    background-color: rgba(157, 175, 91, 0.2);
+    /*background-color: rgba(157, 175, 91, 0.2);*/
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
