@@ -5,7 +5,6 @@ import wf from '../images/wellfargo.jpg';
 import cv from '../images/corevestfinance.jpg';
 import dc from '../images/dailycal.jpg';
 import resume from '../data/Ethan-Ikegami-Resume.pdf';
-import Img from 'react-optimized-image';
 
 function HomePage() {
     return (
@@ -24,7 +23,7 @@ function HomePage() {
                         <h2>based in Berkeley, CA.</h2>
                     </div>
                     <div className="rightMain">
-                        <Img src={me} webp alt="picture of ethan ikegami"/>
+                        <img src={me} alt="picture of ethan ikegami"/>
                     </div>
                 </div>
                 <div className="aboutMe">
@@ -66,9 +65,9 @@ function HomePage() {
                             Analyst Program as a <span className="green">software engineer</span>.
                         </h2>
                         <div className="logos">
-                            <Img className="cv" webp src={cv} />
-                            <Img className="dc" webp src={dc} />
-                            <Img className="wf" wbep src={wf} />
+                            <img className="cv" src={cv} />
+                            <img className="dc" src={dc} />
+                            <img className="wf" src={wf} />
                         </div>
                     </div>
                 </div>

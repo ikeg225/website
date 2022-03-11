@@ -3,7 +3,7 @@ nav {
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
-    margin: 30px 50px 0px;
+    padding: 30px 50px 0px;
 }
 
 .leftNav, .rightNav {
@@ -20,8 +20,31 @@ nav {
     font-family: "Roboto Slab";
 }
 
+.rightNav li {
+    display: flex;
+    align-self: center;
+}
+
+.rightNav li a {
+    display: flex;
+}
+
 .activeLink {
     color: #9DAF5B;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
 @media (max-width: 1024px) {
@@ -32,10 +55,10 @@ nav {
 
 @media (max-width: 425px) {
     nav {
-        margin: 20px 25px 30px;
+        padding: 25px 35px 30px;
     }
 
-    .leftNav, .rightNav {
+    .rightNav {
         gap: 10px;
     }
 
@@ -44,16 +67,54 @@ nav {
     }
     
     .linkedin {
-        width: 22px;
+        width: 25px;
     }
 
     .leftNav {
-        font-size: 15px;
+        font-size: 20px;
     }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .leftNav {
+        position: fixed;
+        left: -100%;
+        flex-direction: column;
+        background-color: #fff;
+        top: 0rem;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        height: 100%;
+        z-index: 1;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .leftNav.active {
+        left: 0px;
+    }
+
+    .bar.gone.active {
+        opacity: 0;
+    }
+
+    .bar.left.active {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .bar.right.active {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+   
 }  
 
 @media (max-width: 320px) {
     nav {
-        margin: 20px 15px 30px;
+        padding: 30px 30px 30px;
     }
 }
