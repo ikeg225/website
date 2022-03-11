@@ -12,6 +12,7 @@ body {
     background-image: url("../images/topography.svg");
     background-repeat: repeat;
     background-attachment: fixed;
+    margin: 0;
 }
 
 a {

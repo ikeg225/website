@@ -96,6 +96,11 @@ button:hover {
 }
 
 @media (max-width: 425px) {
+    .contactForm {
+        width: 80%;
+        margin: 20px auto 100px;
+    }
+
     .contactForm h1 {
         font-size: 25px;
     }
