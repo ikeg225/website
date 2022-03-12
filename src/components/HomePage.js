@@ -4,7 +4,7 @@ import me from '../images/ethanikegami.jpg';
 import wf from '../images/wellfargo.jpg';
 import cv from '../images/corevestfinance.jpg';
 import dc from '../images/dailycal.jpg';
-import resume from '../data/Ethan Ikegami Resume.pdf';
+import resume from '../data/Ethan-Ikegami-Resume.pdf';
 
 function HomePage() {
     return (
