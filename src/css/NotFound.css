@@ -1,0 +1,15 @@
+.notFound {
+    text-align: center;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.notFound h1 {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .notFound h1 {
+        font-size: 40px;
+    }
+}

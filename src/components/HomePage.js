@@ -4,7 +4,7 @@ import me from '../images/ethanikegami.jpg';
 import wf from '../images/wellfargo.jpg';
 import cv from '../images/corevestfinance.jpg';
 import dc from '../images/dailycal.jpg';
-import resume from '../data/Ethan-Ikegami-Resume.pdf';
+import resume from '../data/Ethan Ikegami Resume.pdf';
 
 function HomePage() {
     return (
@@ -52,7 +52,7 @@ function HomePage() {
                             accuracy</span> if a loan will be closed, withdrawn, or rejected. This information 
                             would not be known until <span className="green">months or years</span> into the loan process.  
                         </h2>
-                        <h2>I am currently a <span className="green">web development intern</span> at The Daily Californian which 
+                        <h2>I am currently a <span className="green">frontend engineer intern</span> at The Daily Californian which 
                             is the news outlet of the UC Berkeley campus and the Berkeley, CA 
                             community. We are transitioning their WordPress website to a React 
                             based one. Using <span className="green">GatsbyJS</span>, which is a static site-generator, our final 
