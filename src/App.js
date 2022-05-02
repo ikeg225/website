@@ -5,7 +5,6 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import NotFound from './components/NotFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       <Header />
       <ScrollToTop>
         <Routes>
-          <Route path='*' element={<NotFound />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

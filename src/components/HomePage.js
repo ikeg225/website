@@ -45,24 +45,27 @@ function HomePage() {
                 <div className="experience">
                     <h1>My experience</h1>
                     <div className="whiteBack">
-                        <h2>Last summer, I interned at CoreVest Finance as a <span className="green">data scientist</span>. My 
-                            partner and I built a profile persona of customers based on previously 
-                            inaccessible application data using custom <span className="green">python scripts and OCR </span>
-                            software. Using Random Forests, we created a model that predicted with <span className="green">97.82% 
-                            accuracy</span> if a loan will be closed, withdrawn, or rejected. This information 
-                            would not be known until <span className="green">months or years</span> into the loan process.  
+                        <h2>I started a website called Sports Quiz which is an interactive sports website that quizzes users on
+                            sports related topics. It has reached over 315K users, 5M pageviews, and served more than 16.5M ad impressions 
+                            during the site's lifetime. The website was built using NextJS with <span className="green">Typescript</span> and 
+                            <span className="green">TailwindCSS</span>. Since the website queries data that changes often from a <span className="green">MongoDB</span> instance, 
+                            incremental static regeneration was implemented to keep the site up to date. The quiz application of the website was 
+                            separately built from the main site and is a <span className="green">MERN</span> fullstack application built from 
+                            scratch. The frontend portion of the website was built with <span className="green">ReactJS</span> and <span className="green">vanilla CSS</span>. 
+                            Axios was used to fetch quiz data from the backend API. 
+                            The backend portion of the website was built with NodeJS, Express, and MongoDB. The <span className="green">Mongoose</span> library 
+                            was used to do CRUD operations in the MongoDB instance.
                         </h2>
-                        <h2>I am currently a <span className="green">frontend engineer intern</span> at The Daily Californian which 
+                        <h2>I am currently a <span className="green">web developer intern</span> at The Daily Californian which 
                             is the news outlet of the UC Berkeley campus and the Berkeley, CA 
                             community. We are transitioning their WordPress website to a React 
-                            based one. Using <span className="green">GatsbyJS</span>, which is a static site-generator, our final 
-                            site will be able to load thousands of static pages and significantly 
-                            improve the response time of the website. We are using <span className="green">GraphQL</span> to query 
-                            data from WordPress which allows writers at the organization to still use 
-                            the familiar WP interface. 
+                            based one. Using <span className="green">NextJS</span>, which supports hybrid static and server side
+                            rendering, our final site will be able to load thousands of static pages and significantly 
+                            improve the response time of the website. We are using custom built <span className="green">PHP APIs</span> that query 
+                            data from WordPress which allows writers at the organization to still use the familiar WP interface. 
                         </h2>
-                        <h2>This summer, I will be interning at Wells Fargo through their Technology 
-                            Analyst Program as a <span className="green">software engineer</span>.
+                        <h2>This summer, I will be interning at Wells Fargo through their Technology Program as 
+                            a <span className="green">software engineer</span>.
                         </h2>
                         <div className="logos">
                             <img className="cv" src={cv} />

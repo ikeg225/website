@@ -106,7 +106,7 @@
     }
 }  
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
     .filter {
         flex-wrap: wrap;
         padding-bottom: 10px;

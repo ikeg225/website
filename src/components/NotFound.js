@@ -1,6 +1,8 @@
 import '../css/NotFound.css';
 
 function NotFound() {
+    document.title = "404";
+
     return (
         <div className="notFound">
             <h1>404</h1>

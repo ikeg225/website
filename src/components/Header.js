@@ -9,15 +9,20 @@ function Header() {
     const [active, setActive] = useState(false);
     const [navBar, setNavBar] = useState(false);
 
-    function activate() {
-        if (window.screen.width <= 425) {
-            if (active) {
-                setActive(false)
-                document.body.style.overflow = "visible";
-            } else {
-                setActive(true)
-                document.body.style.overflow = "hidden";
-            }
+    function deActivate() {
+        if (active) {
+            setActive(false)
+            document.body.style.overflow = "visible";
+        }
+    }
+
+    function hamburgerMode() {
+        if (active) {
+            setActive(false)
+            document.body.style.overflow = "visible";
+        } else {
+            setActive(true)
+            document.body.style.overflow = "hidden";
         }
     }
 
@@ -42,12 +47,12 @@ function Header() {
     return (
         <header className={navBar ? "active" : ""}>
             <nav className={navBar ? "active" : ""}>
-                <ul className={addActive("leftNav")} onClick={activate}>
+                <ul className={addActive("leftNav")} onClick={deActivate}>
                     <li><NavLink to="/" className={activeLink}>Home</NavLink></li>
                     <li><NavLink to="/projects" className={activeLink}>Projects</NavLink></li>
                     <li><NavLink to="/contact" className={activeLink}>Contact</NavLink></li>
                 </ul>
-                <div className={addActive("hamburger")} onClick={activate}>
+                <div className={addActive("hamburger")} onClick={hamburgerMode}>
                     <span className={addActive("bar left")}></span>
                     <span className={addActive("bar gone")}></span>
                     <span className={addActive("bar right")}></span>

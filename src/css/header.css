@@ -3,7 +3,8 @@ nav {
     flex-direction: row;
     align-items: stretch;
     justify-content: space-between;
-    padding: 20px 50px 20px;
+    margin: 5px 0 5px;
+    padding: 15px 50px 15px;
     transition: 2s;
 }
 
@@ -19,11 +20,6 @@ header.active {
     transition: 1.5s;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-nav.active {
-    transition: 1.5s;
-    padding: 15px 50px 15px;
 }
 
 .leftNav, .rightNav {
@@ -67,22 +63,15 @@ nav.active {
     background-color: #101010;
 }
 
-.navBar.active {
-    background-color: red;
-}
-
 @media (max-width: 1024px) {
     .leftNav {
         font-size: 20px;
     }
 }  
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
     nav {
-        padding: 25px 35px 30px;
-    }
-
-    nav.active {
+        margin: 10px 0 15px;
         padding: 15px 35px 15px;
     }
 
@@ -139,6 +128,6 @@ nav.active {
 
 @media (max-width: 320px) {
     nav {
-        padding: 20px 35px 20px;
+        margin: 5px 0 5px;
     }
 }
