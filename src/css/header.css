@@ -5,19 +5,18 @@ nav {
     justify-content: space-between;
     margin: 5px 0 5px;
     padding: 15px 50px 15px;
-    transition: 2s;
 }
 
 header {
     position: sticky;
     top: -100px;
-    transition: 1.5s;
+    transition: 0.5s;
     z-index: 1000;
 }
 
 header.active {
     top: 0px;
-    transition: 1.5s;
+    transition: top 1s, background-color 0s, box-shadow 0s;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
