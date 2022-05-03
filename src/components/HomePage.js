@@ -2,7 +2,7 @@ import '../css/homepage.css';
 import Typewriter from 'typewriter-effect';
 import me from '../images/ethanikegami.jpg';
 import wf from '../images/wellfargo.jpg';
-import cv from '../images/corevestfinance.jpg';
+import cv from '../images/sportsquiz.jpg';
 import dc from '../images/dailycal.jpg';
 import resume from '../data/Ethan-Ikegami-Resume.pdf';
 
@@ -45,16 +45,10 @@ function HomePage() {
                 <div className="experience">
                     <h1>My experience</h1>
                     <div className="whiteBack">
-                        <h2>I started a website called Sports Quiz which is an interactive sports website that quizzes users on
+                        <h2>I started a website called Sports Quiz which is an interactive sports site that quizzes users on
                             sports related topics. It has reached over 315K users, 5M pageviews, and served more than 16.5M ad impressions 
-                            during the site's lifetime. The website was built using NextJS with <span className="green">Typescript</span> and 
-                            <span className="green">TailwindCSS</span>. Since the website queries data that changes often from a <span className="green">MongoDB</span> instance, 
-                            incremental static regeneration was implemented to keep the site up to date. The quiz application of the website was 
-                            separately built from the main site and is a <span className="green">MERN</span> fullstack application built from 
-                            scratch. The frontend portion of the website was built with <span className="green">ReactJS</span> and <span className="green">vanilla CSS</span>. 
-                            Axios was used to fetch quiz data from the backend API. 
-                            The backend portion of the website was built with NodeJS, Express, and MongoDB. The <span className="green">Mongoose</span> library 
-                            was used to do CRUD operations in the MongoDB instance.
+                            during the site's lifetime. The website was built using <span className="green">Typescript</span>, <span className="green">TailwindCSS</span>, and 
+                            NextJS with incremental static regeneration. The quiz application of the website was built separately and is a <span className="green">MERN</span> (MongoDB, Express, ReactJS, NodeJS) fullstack application built from scratch.
                         </h2>
                         <h2>I am currently a <span className="green">web developer intern</span> at The Daily Californian which 
                             is the news outlet of the UC Berkeley campus and the Berkeley, CA 
