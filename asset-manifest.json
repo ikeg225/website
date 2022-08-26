@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5279d4ab.css",
+    "main.js": "/static/js/main.bc5b784a.js",
+    "static/media/ethanikegami.jpg": "/static/media/ethanikegami.b5f10b08fe7a31f959e5.jpg",
+    "static/media/roboto-slab.bold.ttf": "/static/media/roboto-slab.bold.b4a6cff80bc429d3416d.ttf",
+    "static/media/roboto-slab.regular.ttf": "/static/media/roboto-slab.regular.7ce86de3a11228c75d5e.ttf",
+    "static/media/topography.svg": "/static/media/topography.c38732356a04a5f9e799.svg",
+    "static/media/wellfargo.jpg": "/static/media/wellfargo.2c1999bf87237d7fe0cc.jpg",
+    "static/media/dailycal.jpg": "/static/media/dailycal.d880cbc01cd2c6b8399e.jpg",
+    "static/media/sportsquiz.jpg": "/static/media/sportsquiz.007c2e5dfbc1a0ecb4ae.jpg",
+    "static/media/github.webp": "/static/media/github.5be6112ee0e861c81f27.webp",
+    "static/media/linkedin.webp": "/static/media/linkedin.0671d7e5868d79521147.webp",
+    "index.html": "/index.html",
+    "main.5279d4ab.css.map": "/static/css/main.5279d4ab.css.map",
+    "main.bc5b784a.js.map": "/static/js/main.bc5b784a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5279d4ab.css",
+    "static/js/main.bc5b784a.js"
+  ]
+}
