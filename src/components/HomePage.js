@@ -4,7 +4,7 @@ import me from '../images/ethanikegami.jpg';
 import wf from '../images/wellfargo.jpg';
 import cv from '../images/sportsquiz.jpg';
 import dc from '../images/dailycal.jpg';
-import resume from '../data/Ethan-Ikegami-Resume.pdf';
+// import resume from '../data/Ethan-Ikegami-Resume.pdf';
 
 function HomePage() {
     return (
@@ -58,7 +58,7 @@ function HomePage() {
                             improve the response time of the website. We are using custom built <span className="green">PHP APIs</span> that query 
                             data from WordPress which allows writers at the organization to still use the familiar WP interface. 
                         </h2>
-                        <h2>This summer, I will be interning at Wells Fargo through their Technology Program as 
+                        <h2>This summer, I interned at Wells Fargo through their Technology Program as 
                             a <span className="green">software engineer</span>.
                         </h2>
                         <div className="logos">
@@ -74,7 +74,7 @@ function HomePage() {
                         <h2>For a more concise version of my experience highlighting my most 
                             relevant skills, please checkout my resume below!</h2>
                         <div className="resButton">
-                            <a href={resume} target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
+                            <a href="https://drive.google.com/file/d/1oGBBvZrGVMmZB9V2LIu4VIwR-CBModE5/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
                         </div>
                     </div>
                 </div>
