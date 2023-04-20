@@ -53,14 +53,18 @@ function Projects() {
 
     return (
         <div className="latest">
-            <h1 className="pageTitle" >Latest Projects</h1>
+            <h1 className="pageTitle" >Projects</h1>
             <div className="filter">
                 <button className={button === "all" ? 'buttSelected' : ''} value="all" onClick={handleProject} >All</button>
                 <button className={button === "web" ? 'buttSelected' : ''} value="web" onClick={handleProject} >Web Dev</button>
                 <button className={button === "software" ? 'buttSelected' : ''} value="software" onClick={handleProject} >Software</button>
                 <button className={button === "data" ? 'buttSelected' : ''} value="data" onClick={handleProject} >Data Science</button>
             </div>
-            {projects}
+            <div className="projectListingsMargin">
+                <div className="projectListings">
+                    {projects}
+                </div>
+            </div>
         </div>
     )
 }

@@ -21,8 +21,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 50px 250px;
     border-radius: 10px;
+}
+
+.projectListings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.projectListingsMargin {
+    margin: 30px 250px;
 }
 
 .text {
@@ -55,8 +66,8 @@
 }
 
 @media (max-width: 1024px) {
-    .singleproject {
-        margin: 50px 150px;
+    .projectListingsMargin {
+        margin: 30px 150px;
     }
 
     .pageTitle {
@@ -67,8 +78,8 @@
         font-size: 15px;
     }
 
-    .singleproject {
-        margin: 50px 60px;
+    .projectListingsMargin {
+        margin: 30px 100px;
     }
 
     .text h1 {
@@ -115,7 +126,10 @@
 
     .singleproject {
         flex-direction: column;
-        margin: 50px 30px;
+    }
+
+    .projectListingsMargin {
+        margin: 30px 30px;
     }
 
     .filter button {
@@ -128,8 +142,8 @@
 } 
 
 @media (max-width: 320px) {
-    .singleproject {
-        margin: 50px 20px;
+    .projectListingsMargin {
+        margin: 30px 20px;
     }
 
     .logo img {

@@ -1,9 +1,9 @@
 import '../css/homepage.css';
 import Typewriter from 'typewriter-effect';
 import me from '../images/ethanikegami.jpg';
-import wf from '../images/wellfargo.jpg';
 import cv from '../images/sportsquiz.jpg';
 import dc from '../images/dailycal.jpg';
+import Project from './SingleProject';
 // import resume from '../data/Ethan-Ikegami-Resume.pdf';
 
 function HomePage() {
@@ -44,7 +44,7 @@ function HomePage() {
                 </div>
                 <div className="experience">
                     <h1>My experience</h1>
-                    <div className="whiteBack">
+                    {/* <div className="whiteBack">
                         <h2>I started a website called Sports Quiz which is an interactive sports site that quizzes users on
                             sports related topics. It has reached over 315K users, 5M pageviews, and served more than 16.5M ad impressions 
                             during the site's lifetime. The website was built using <span className="green">Typescript</span>, <span className="green">TailwindCSS</span>, and 
@@ -66,6 +66,50 @@ function HomePage() {
                             <img className="dc" src={dc} />
                             <img className="wf" src={wf} />
                         </div>
+                    </div> */}
+                    <div className="homepageInternships">
+                        <Project 
+                            name="The Daily Californian"
+                            category=""
+                            key={1}
+                            image="/dailycal.webp"
+                            description={`
+                            <ul>
+                                <li>Improved performance & enhanced scalability of UC Berkeley's news site by migrating the existing WordPress app to NextJS</li>
+                                <li>Queried content from WordPress by constructing custom PHP APIs, enabling writers to utilize a familiar CMS interface</li>
+                                <li>Implemented header bidding with the PrebidJS wrapper and Google Ad Manager increasing ad revenue by 35%</li>
+                            </ul>`}
+                            technology="Full Stack Engineer — React, NextJS, NodeJS, PHP"
+                            moreinfo=""
+                        />
+                        <Project 
+                            name="Wells Fargo"
+                            category=""
+                            key={1}
+                            image="/wellfargo.jpg"
+                            description={`
+                            <ul>
+                                <li>Augmented automation and scalability using IAC with Terraform and Azure - integrated with the preexisting CI/CD pipeline</li>
+                                <li>Ideated and developed an AngularJS application for interns to expand their professional network and deployed it to the cloud</li>
+                                <li>Automated tasks in Jira and cross-validated data in Python, saving time and improving data accuracy for executives</li>
+                            </ul>`}
+                            technology="Software Engineer Intern — AngularJS, Agile Development, Microsoft Azure Cloud"
+                            moreinfo=""
+                        />
+                        <Project 
+                            name="CoreVest Finance"
+                            category=""
+                            key={1}
+                            image="/corevest.webp"
+                            description={`
+                            <ul>
+                                <li>Constructed a profile for primary clients using collected data, aiding in identifying future prospects and generating leads</li>
+                                <li>Transformed previously inaccessible data in thousands of scanned PDFs to usable data for exploration and analysis</li>
+                                <li>Developed a Random Forest Classifier to predict loan status months into the future with 97.2% accuracy</li>
+                            </ul>`}
+                            technology="Data Science Intern — Python, RegEx, OCR, Pandas, NumPy, Scikit-Learn"
+                            moreinfo=""
+                        />
                     </div>
                 </div>
                 <div className="resume">
@@ -74,7 +118,7 @@ function HomePage() {
                         <h2>For a more concise version of my experience highlighting my most 
                             relevant skills, please checkout my resume below!</h2>
                         <div className="resButton">
-                            <a href="https://drive.google.com/file/d/1oGBBvZrGVMmZB9V2LIu4VIwR-CBModE5/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
+                            <a href="https://drive.google.com/file/d/1s1k3HHZQ7rkWb7b45OSJQaLdRi8GWoQi/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button>Resume</button></a>
                         </div>
                     </div>
                 </div>

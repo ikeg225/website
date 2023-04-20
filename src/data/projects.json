@@ -1,20 +1,20 @@
 {
     "projects": [
         {
-            "name": "CoreVest Finance",
-            "category": "data",
-            "image": "/corevest.webp",
-            "description": "CoreVest Finance meets the demand for affordable debt capital by a broad range of residential real estate investors. Interning as a data scientist in the summer of 2021, my partner and I built a profile persona of customers based on previously inaccessible application data using custom python scripts and OCR software. Using Random Forests, we created a model that predicted with 97.82% accuracy if a loan will be closed, withdrawn, or rejected. This information would not be known until months or years into the loan process.",
-            "technology": "Python, Pandas, NumPy, OCR, Regex, Scikit-Learn",
+            "name": "Pintos+",
+            "category": "software",
+            "image": "/pintos.png",
+            "description": "Developed a real, working kernel and an improved Pintos file system. Added multithreading support, an efficient alarm clock for waiting threads, strict priority scheduling with priority donation, user threads, and user-level synchronization. Enhanced file system with buffer cache, file extensibility, and subdirectories.",
+            "technology": "C, x86, GDB, System Design, Operating System Concepts",
             "moreinfo": "<div>Contact for code</div>"
         },
         {
-            "name": "The Daily Californian",
-            "category": "web",
-            "image": "/dailycal.webp",
-            "description": "The Daily Californian is the news outlet of the UC Berkeley campus and the Berkeley, CA community. We are transitioning their WordPress website to a React based one. Using NextJS, which supports hybrid static and server side rendering, our final site will be able to load thousands of static pages and significantly improve the response time of the website. We are using custom built PHP APIs that query data from WordPress which allows writers at the organization to still use the familiar WP interface. In order to maximize ad revenue, we plan on implementing header bidding with the PrebidJS wrapper and Google Ad Manager.",
-            "technology": "ReactJS, NextJS, HTML, CSS, JavaScript, JSX, PHP",
-            "moreinfo": "<a href='https://www.dailycal.org/' target='_blank' rel='noopener noreferrer'>Website</a>"
+            "name": "Iron Vault",
+            "category": "software",
+            "image": "/vault.png",
+            "description": "An efficient end-to-end encrypted file sharing system that allows clients to login/sign up, save/overwrite/append files to a compromised server without data leakage, and share/revoke access to files for specified users.",
+            "technology": "Golang, Ginkgo, Security Concepts (Public Key/Symmetric Encryption, Digital Signatures/HMAC, PBKDF)",
+            "moreinfo": "<div>Contact for code</div>"
         },
         {
             "name": "Uber Project",
