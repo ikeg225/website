@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2808df6b.css",
-    "main.js": "/static/js/main.a4634004.js",
+    "main.js": "/static/js/main.e4290719.js",
     "static/media/ethanikegami.jpg": "/static/media/ethanikegami.b5f10b08fe7a31f959e5.jpg",
     "static/media/roboto-slab.bold.ttf": "/static/media/roboto-slab.bold.b4a6cff80bc429d3416d.ttf",
     "static/media/roboto-slab.regular.ttf": "/static/media/roboto-slab.regular.7ce86de3a11228c75d5e.ttf",
@@ -12,10 +12,10 @@
     "static/media/linkedin.webp": "/static/media/linkedin.0671d7e5868d79521147.webp",
     "index.html": "/index.html",
     "main.2808df6b.css.map": "/static/css/main.2808df6b.css.map",
-    "main.a4634004.js.map": "/static/js/main.a4634004.js.map"
+    "main.e4290719.js.map": "/static/js/main.e4290719.js.map"
   },
   "entrypoints": [
     "static/css/main.2808df6b.css",
-    "static/js/main.a4634004.js"
+    "static/js/main.e4290719.js"
   ]
 }
