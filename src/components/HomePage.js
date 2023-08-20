@@ -4,7 +4,6 @@ import me from '../images/ethanikegami.jpg';
 import cv from '../images/sportsquiz.jpg';
 import dc from '../images/dailycal.jpg';
 import Project from './SingleProject';
-// import resume from '../data/Ethan-Ikegami-Resume.pdf';
 
 function HomePage() {
     return (
@@ -44,30 +43,21 @@ function HomePage() {
                 </div>
                 <div className="experience">
                     <h1>My experience</h1>
-                    {/* <div className="whiteBack">
-                        <h2>I started a website called Sports Quiz which is an interactive sports site that quizzes users on
-                            sports related topics. It has reached over 315K users, 5M pageviews, and served more than 16.5M ad impressions 
-                            during the site's lifetime. The website was built using <span className="green">Typescript</span>, <span className="green">TailwindCSS</span>, and 
-                            NextJS with incremental static regeneration. The quiz application of the website was built separately and is a <span className="green">MERN</span> (MongoDB, Express, ReactJS, NodeJS) fullstack application built from scratch.
-                        </h2>
-                        <h2>I am currently a <span className="green">web developer intern</span> at The Daily Californian which 
-                            is the news outlet of the UC Berkeley campus and the Berkeley, CA 
-                            community. We are transitioning their WordPress website to a React 
-                            based one. Using <span className="green">NextJS</span>, which supports hybrid static and server side
-                            rendering, our final site will be able to load thousands of static pages and significantly 
-                            improve the response time of the website. We are using custom built <span className="green">PHP APIs</span> that query 
-                            data from WordPress which allows writers at the organization to still use the familiar WP interface. 
-                        </h2>
-                        <h2>This summer, I interned at Wells Fargo through their Technology Program as 
-                            a <span className="green">software engineer</span>.
-                        </h2>
-                        <div className="logos">
-                            <img className="cv" src={cv} />
-                            <img className="dc" src={dc} />
-                            <img className="wf" src={wf} />
-                        </div>
-                    </div> */}
                     <div className="homepageInternships">
+                        <Project 
+                            name="DoorDash"
+                            category=""
+                            key={1}
+                            image="/doordash.png"
+                            description={`
+                            <ul>
+                                <li>Engineered a full stack app that established DashMart as the source of truth for facility data management, which enhanced data quality & consistency, improved sox compliance, reduced on call load, and saved tool/process operation costs</li>
+                                <li>Implemented service endpoints with Protobuf & gRPC - integrated data logging/backfill, allowlist APIs, and unit/pulse tests</li>
+                                <li>Developed the BFF and updated the UI with React & GraphQL, streamlining operators' data access & modification for facilities</li>
+                            </ul>`}
+                            technology="Software Engineer — React, Typescript, Kotlin, PostgreSQL, CockroachDB, Python"
+                            moreinfo=""
+                        />
                         <Project 
                             name="The Daily Californian"
                             category=""
